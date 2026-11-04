@@ -1,0 +1,24 @@
+#!/bin/sh
+# live-build auto/config script for CX-OS v7
+
+set -e
+
+sudo lb config noauto \
+  --mode debian \
+  --distribution trixie \
+  --archive-areas "main contrib non-free non-free-firmware" \
+  --binary-images iso-hybrid \
+  --firmware-binary true \
+  --memtest none \
+  --bootloaders "grub-pc grub-efi" \
+  --debian-installer live \
+  --apt-indices true
+
+sudo lb chroot clean
+sudo lb chroot
+sudo lb binary
+
+echo ""
+echo "Build complete!"
+ls -lh *.iso 2>/dev/null || true
+

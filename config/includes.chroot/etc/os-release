@@ -1,0 +1,6 @@
+PRETTY_NAME="CX-OS 6"
+NAME="CX-OS"
+VERSION="6 (Debian GNU/Linux trixie)"
+VERSION_ID="6"
+ID=cx-os
+ID_LIKE=debian

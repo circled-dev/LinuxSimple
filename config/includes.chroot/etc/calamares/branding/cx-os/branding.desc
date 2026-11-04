@@ -1,0 +1,10 @@
+---
+strings:
+  productName: "CX-OS"
+  shortProductName: "CX-OS"
+  version: "1.0.2"
+
+images:
+  productIcon: "cx-os-logo.png"
+  productLogo: "cx-os-logo.png"
+  productWelcome: "cx-os-logo.png"
