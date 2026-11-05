@@ -10,6 +10,6 @@ Installation
 5. Check the folder **From the REPO** and you should see the hybrid .ISO (cx-os) and you are good to go.
    This Distro is still in development and you can support me out by working in this project.
 By the way, to see if you got a real working ISO, use this SHA256 Key to verify 5e60ebd9110cb799bc148e2943b4c809007b8a9c615fe42adf2d3f83d185d911
-By the way, to see if you got a real working ISO, use this SHA256 Key to verify 'cd ~/cx-os && echo "5e60ebd9110cb799bc148e2943b4c809007b8a9c615fe42adf2d3f83d185d911 cx-os-amd64.hybrid.iso" | sha256sum -c - '
+By the way, to see if you got a real working ISO, use this SHA256 Key to verify 'cd ~/cx-os && echo "56b6791b60972a0ad7c9be9924fb4a55381c5a0892ffd86aa4024e3238d11975 cx-os-amd64.hybrid.iso" | sha256sum -c - '
 Back-ticks (') are used to represent what commands you need to enter.
    Current version: v6.0
